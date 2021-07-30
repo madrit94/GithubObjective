@@ -10,4 +10,5 @@ We use the terminal because this is where we are able to send any text commands 
 
 c.) Explain 3 benefits of version control in your own words. 
 
+
 One benefit of version control is that if you are working on a project with a team full of people everyone is able to work freely on any file at any time then later on the version control to mash all the changes in one common version. There would be no confusion or questions where the latest version of a file or the whole project itself is. Another benefit is that if you want you can work remotely independent on your own even if you are part of a team project. One other big benefit is that it restores previous versions of a file or the whole project this comes in handy because let's say your latest changes are any good you can always go back and erase with a click of a button it basically hard for someone to mess up anything there's always a sense of a cushion with any change u may want to make to a project. 

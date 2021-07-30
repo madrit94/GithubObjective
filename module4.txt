@@ -1,0 +1,32 @@
+1) In your own words explain at its core what a computer really is doing whenever you type a letter on the keyboard.
+
+A keyboard is basically its own small computer. It has its very own processor and also there is a grid of circuits underneath the keyboard keys. Most of those keys have a numerical code ranging from 01-127. When pressing down a key on the keyboard the key presses down into the membrane below it closing an electrical circuit (making an electrical connection). The keyboard controller in the keyboard notices this then it transmits that keys specific numerical value through electrical wires to the computer. Now when you release the key that numerical value is sent again but increased by 128, this is the high bit of an 8-bit binary number.  So when you press let's say the letter A it sends one value when you release it sends the same value +128. The binary number system is basically how the computer counts meaning that that’s how it converts the letters we are pressing into binary. Then the hand monitor receives its binary form through an interface  which converts it to a letter display on the screen.  That interface is when pressing the key and the processor is informed about the key you pressed by the interrupt. Which then that key's value you pressed goes into a keyboard buffer and then the processor reacts to the interrupts to look up the value for the key you pressed so it can display it for you on the monitors. 
+
+2) Explain in your own words what are the uses of docker. 
+
+Docker is an open platform that is used for running, developing and shipping applications in a loose environment called a container and successfully in host operating systems like Linux. It allows you to deliver software quickly by separating your applications from your infrastructure. Dockers infrastructure can be managed like software management.  By using docker developers and system admins are able to work in standardized environments using local containers that provide us with any apps and services. Docker makes it easy to use containers and container based apps. Containers are user space for operating systems. Docker allows developers to write code and share their work with their team using the docker containers. The containers that you are able to create by docks will be the main source where you’re developing and testing the apps. So basically you develop your application and the supporting components through these containers . And then you can test the application manually or it would do it automatically.  Testing and distribution of your app is all done through the containers. When using docker, developers can find bugs and fix them, redeploy them for retesting when the testing process is all done  through docker getting the fixes to the customer who is using the app very easily.
+
+
+3) Explain why a docker is recommended. 
+
+There are a few different reasons why docker is recommended. One of these reasons is that it won't cause version mismatches when running in different setup like virtual machines and developers won't lose time in creating and using, it can automatically build a container based on application source code. Also docker containers are able to run without modifications on any desktop, data center and cloud environment. Sharing container libraries is another plus , developers can access an open source registry containing thousands of user-contributed containers. Unlike virtual machines with docker you can also reuse existing containers which can be used as a blueprint basically to build new containers. Another reason docker is recommended is that unlike the LinuxContainers docker containers only one process could run in one container which makes it possible for you to build an app that is able to keep on running while certain parts may be taken down for repair or updates. And also one main reason that it may be recommended to many people is that using docker is easy and can be used by anyone with basic cloud service and web application development knowledge , it doesn't have complex fundamentals. With all that being said, being able to build locally and upgrade deployment to the cloud from anywhere does help with favoritism. 
+
+
+4) Explain what are the main features of Docker. 
+
+Easy And Fast Configuration - this is one of best features for docker because we can configure easier and faster. We are able to deploy our code much faster and easier with docker. 
+
+Reducing Size- docker provides a smaller footprint of the operating system via container, it gives you the ability to reduce the size of the development. 
+
+
+Increase of Productivity - using docker can have an increase of productivity by rapid deployment of apps and easing technical configuration it’s helps the function of the app in a isolated environment and also reduces its resource
+
+Lightweight Containers-  this makes it easy for developer to change or adjust anything’s 
+
+Application Isolation - Each container is independent of one another and it allows us to execute any application required. 
+
+Swarm- this is a scheduling and clustering tool for the docker containers. Swarm uses Docker API which allows us to use various tools to control what we need to. It also helps us with controlling a collection of docker hosts as a single virtual host. 
+
+Routing Mesh - the routing mesh feature helps to route the incoming requests for published ports on available nodes to an active container. It could enable the connection even if there is no task running in the node 
+
+Security Management - When we want to save secrets into the swarm and create service access to secrets the security management makes that possible. It gives us access to important commands to the engine such as secret inspect, secret create, and more.
