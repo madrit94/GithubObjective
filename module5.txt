@@ -1,0 +1,26 @@
+a) Explain in your own words what Python is. 
+
+Python is a very popular widely used general-purpose coding language that is used for not only web development but software development and more.  The python program language was written by Guido van Rossum. One great thing about it is that it’s easy to learn and read because python code syntax uses English words as code. Through python we can write commands to the computer so it can store, retrieve and manipulate data. Python is an open source meaning that anyone is able to contribute to its development and it doesn’t matter what computer you’re using you may use the python program on any platform. Python can be be used for  tasks such as back end web and mobile development, desktop app and software feature development, processing big data and performing mathematical computation and also writing system scripts( giving instructions to computer do something) Python interprets data through by these data type: integers, floats , strings, booleans.  Python's role in web development  could be used for things such as sending data to and from different servers, it can process data and communicate with databases and as well as url routing and tightening up security.  I also mentioned scripting with python earlier which can help you with work efficiency by completing tasks faster. For example if you see that you're doing the same task over and over again you can script through python basically write a code for the task you’re doing in the computer for things like checking errors across multiple files at the same time or convert files, execute simple math and remove duplicates or data. Python could also be used to rename files and find or download content or even send emails or texts at desired intervals. Also python comes in handy for software testing and prototyping helping with tasks with tasks like bug tracking, build control, and testing. Some of these python tools used for software testing are Green and Requestium.  Also python's help from 3rd parties makes it popular among people because the the-archives and modules already created by 3rd parties you don’t have to start from scratch with coding commands. Basically python makes tough tasks simple through coding and it’s free and anyone, even kids are able to learn it because it’s built for easy use. 
+
+
+b) Explain Data and Data Python Types.
+
+Data is information stored or processed by a computer. This information could include anything from software programs ,text documents, images , audio and video. Data could be processed by a computers CPU and is stored in folders or files in a computers hard disk.  In computer data there are a lot of ones and zeros called binary data, and this binary format allows computer data to be created , processed , saved and stored digitally .Now I’ll explain some of the  python data types:
+
+•Integers(int) - this data contains positive or whole numbers without fractions or decimals. In python an integer value can be as long as you want it to be. 
+
+
+•Float - it is a real number with a floating point representation. It is defined by a decimal point. 
+
+
+•String - strings in python are a basically like a lineup of bytes that represent Unicode characters. We could call it a sequence of characters. 
+
+
+ 
+c) Explain in your own words what a Function is.
+
+Functions are a very common feature in all programming languages including python. It is a group of code that allows programmers to write sets of code to perform whatever task they’d like. To run your code in a function you have to call it like activate it. Once the function is defined it can be called from anywhere and can be executed as many times as you’d like. It helps developers reduce repetition in their code because it can allow you to do the same set of code many times over in one program. Functions in python return a value using return statements when it’s specified. A function alone does not do nothing unless you activate or call ‘’ call it ‘’ like I mentioned earlier and then the code inside the function will activate to a specific task. In python we have 2 different types of functions ( user-defined and  built-in). Some examples of build it are print() this prints a statement to the console. Another is Python len() , which calculates the length of a list and there is also Python str() which converts a value to a string. Now user-defined functions are blocks of code written by you that you may re use. This is helpful because you may organize your code more efficiently and this is important because having organized code makes it easy to maintain it.
+
+d) Explain Python Print Statement. 
+
+The python print statement sends data to the display terminal or another print unit. The python print function is the main basic step for you to learn the python language or any other programming language.  In python 2 there were no parentheses needed to print a statement but in python 3 you have to or else you'll get a syntax error. For example if we were to print the statement print “hello world” that's the way we would print it in python 2. But in python 3 we would have to type it in as print (“Hello, World”) which makes it a function rather than a statement.
